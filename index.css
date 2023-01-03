@@ -1,0 +1,72 @@
+@font-face {
+  font-family: timerFont;
+  src: url(cursedTimer.ttf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background: #0a2351;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.container {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    background: black;
+    margin: 20px auto;
+    padding: 20px 0px 0px;
+}
+
+#score-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.score {
+   
+    margin: 50px 0px 20px 0px;
+    font-family: timerFont, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+}
+
+#home-score {
+    color: #DA192A;
+}
+
+#guest-score {
+    color: #65FFC1;
+}
+
+.buttons {
+    padding-top: 20px;
+}
+
+.inc-button {
+    font-family: timerFont, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background: inherit;
+    color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#reset {
+    max-width: 100px;
+    margin: 40px auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    background: inherit;
+    color: inherit;
+    font-size: 14px;
+    
+}
